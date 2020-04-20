@@ -1,0 +1,44 @@
+#title {
+    background: linear-gradient(30deg, rgb(228, 255, 76), rgb(236, 59, 59));
+}
+
+#title > h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 900;
+    font-size: 5vmax;
+    padding: 10px 0;
+    margin: 0;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    background-color: black;
+    min-width: 120px;
+    min-height: 100px;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 30%;
+}
+
+span#letter {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+span#sound {
+    
+    font-size: 15px;
+}
