@@ -42,3 +42,9 @@ span#sound {
     
     font-size: 15px;
 }
+
+button:active {
+    border-color: yellow;
+    border-radius: 3px;
+    transform: scale(1.1);
+}
